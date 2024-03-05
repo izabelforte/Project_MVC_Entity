@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url(https://d14cwy1v1pw9nw.cloudfront.net/images/carplus/imported/15df0fea-30ee-4830-aed0-e0e90209dffb-1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    color: white;
+    font-family: 'Comic Neue', Arial, cursive;
+}
+
+a {
+    color: black;
+}
+
+
+    a:hover { /*efeito de passar o rato em cima e mudar de cor*/
+        color: red;
+    }
+
+table {
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+}
+
+
